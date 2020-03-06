@@ -11,7 +11,7 @@ namespace Commercial_Automation_System
     {
         public SqlConnection connect()
         {
-            SqlConnection connection = new SqlConnection("Data Source=DESKTOP-U5PMUAL\\SQLEXPRESS;Initial Catalog=CommercialAutomationDB;Integrated Security=True");
+            SqlConnection connection = new SqlConnection("Data Source=DESKTOP-U43PAVU;Initial Catalog=CommercialAutomationDB;Integrated Security=True");
             connection.Open();
             return connection;
         }
