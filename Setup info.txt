@@ -1,1 +1,3 @@
 Database local makineye kendi ismi ile olusturularak restore edilmeli daha sonra ClassSqlConnection.cs içerisindeki Data Source degeri local makindeki server name ile değiştirilmelidir.
+login: admin
+passw: 123
